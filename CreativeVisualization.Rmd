@@ -34,7 +34,7 @@ library(ggthemes)
 
 ```{r}
 
-OESdata<- read_csv("/Users/jessicavaldes/Desktop/R2024/creative-data-visualization/DATA/OESdata.csv", col_names = TRUE)
+OESdata<- read_csv("https://raw.githubusercontent.com/jzkvlds/creative-data-visualization/main/DATA/OESdata.csv", col_names = TRUE)
 
 head(OESdata)
 
